@@ -1,0 +1,37 @@
+:root {
+    --main-shadow: 0px 3px 15px rgba(0, 0, 0, 0.085);
+}
+
+body h1 h2 h3 h4 p a {}
+
+body {
+    font-family: 'Montserrat';
+    background: #FAFAFA;
+    caret-color: #0070FB;
+    user-select: none;
+    margin: 0px;
+    align-items: center;
+}
+
+header {
+    height: 80px;
+    background-color: white;
+    box-shadow: var(--main-shadow);
+}
+
+.main {
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 100vh;
+    width: 1000px;
+    background-color: white;
+    box-shadow: var(--main-shadow);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.footer {
+    height: 150px;
+    box-shadow: var(--main-shadow);
+}
